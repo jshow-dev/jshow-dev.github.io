@@ -1,22 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 function BuyingComponent() {
   const [isVisible, setIsVisible] = useState(false);
   const showHideInfo = () => {
     setIsVisible(!isVisible);
-    // var elmntToView = document.getElementById("hideShow");
-    // elmntToView.globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    // ;
+    ref.current?.scrollToTop({behavior: 'smooth'});
   };
-  // const showBuyingInfo = () => {console.log('Default')};
+  const ref = useRef(null);
+
   return (
     <div className="buying-info-container">
       <div>We Buy Records!</div>
-      <button id="hideShow" onClick={() => showHideInfo()}>
+      <a id="hideShow" onClick={() => showHideInfo()}>
         {isVisible ? "Close Section" : "Tell Me More"}
-      </button>
+      </a>
       {isVisible && (
-        <div className="buying-qa">
+        <div className="buying-qa" ref={ref}>
           <h1 className="buying-header">
             Do you buy used items from individuals?
           </h1>
