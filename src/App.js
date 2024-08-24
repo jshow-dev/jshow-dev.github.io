@@ -1,6 +1,7 @@
 import "./App.css";
 import logo from "./rc-logo.png";
-import React, { useState, useRef } from "react";
+import mediaTypes from "./CommonRecordTypes.png";
+import React, { useState } from "react";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -9,9 +10,6 @@ function App() {
     // ref.current?.scrollToTop({behavior: 'smooth'});
   };
 
-  const showHideStoreInfo = () => {
-    setIsVisible(!isVisible);
-  };
   return (
     <div className="App">
       <header className="App-header">
@@ -106,43 +104,44 @@ function App() {
               Do you buy used items from individuals?
             </h1>
             <p class-name="buying-info">
-              Yes we do!{" "}
-              <span className="emphasized-text">
-                Please read on to find out what we will buy and what we won’t
-                buy.
-              </span>{" "}
-              Also know that we do not assess the value of records for your own
-              sales or for insurance value – we only offer our pay-out prices
-              for items based on title and condition. We must see the actual
-              items to offer a pay-out price. We cannot make offers over the
-              phone or via email (even with photographs).{" "}
-              <span className="emphasized-text">
-                We now require appointments to sell items
-              </span>{" "}
-              – please call or email to set one up (contact information at top
-              of page).
+              Yes we do! Yes we do! Please read on to find out what we will buy
+              and what we won’t buy. Also know that we do not assess the value
+              of records for your own sales or for insurance value – we only
+              offer our pay-out prices for items based on title and condition.
+              We must see the actual items to offer a pay-out price. We cannot
+              make offers over the phone or via email (even with photographs).
+              We now require appointments to sell items – please call or email
+              to set one up (contact information at top of page).{" "}
             </p>
             <h1 className="buying-header">
               What kinds of used items do you buy?
             </h1>
-            <p class-name="buying-info">
-              We buy some{" "}
-              <span className="emphasized-text">
-                LPs, CDs, 45s, cassette tapes and music-related/concert DVDs.
-              </span>{" "}
-              We also buy working component
-              <span className="emphasized-text">
-                {" "}
-                turntables, amplifiers & receivers and some speaker sets.
-              </span>{" "}
-              Normally it takes us longer to assess equipment because checking
-              the condition and functionality takes more time. <br></br>
-              <br></br>We DON’T buy 78s (shellac records), reel-to-reels,
-              8-track tapes, memorabilia, movie DVDs, CD players, console
-              players or all-in-one players (with built-in speakers, like
-              Crosleys or Victrolas). Be aware that there is no premium paid for
-              autographed items.
-            </p>
+            <div>
+              <p class-name="buying-info">
+                We buy some LPs, CDs, 45s, cassette tapes and
+                music-related/concert DVDs. We also buy some working component
+                turntables, amplifiers & receivers and some speaker sets. If you
+                have a piece of equipment to sell, we require you to send
+                pictures of the items to our email
+                <span> </span>
+                <a href="mailto: sales@recordcollector.co">
+                  sales@recordcollector.com
+                </a>. Also be aware that it normally takes us longer to assess
+                equipment because checking the condition and functionality takes
+                more time. <br></br>
+                <br></br>We DON’T buy 78s (shellac records), reel-to-reels,
+                8-track tapes, memorabilia, movie DVDs, CD players, console
+                players or all-in-one players (with built-in speakers, like
+                Crosleys or Victrolas). Be aware that there is no premium paid
+                for autographed items.
+              </p>
+              <img
+                className="media-types"
+                src={mediaTypes}
+                alt="types of records"
+              ></img>
+            </div>
+
             <h1 className="buying-header">
               What genres or artists do you buy?
             </h1>
@@ -213,9 +212,10 @@ function App() {
               you will be asked to let us know some of the artists/genres and
               the quantity (number of crates, etc.). For large quantities, we
               sometimes need to keep items overnight. We RARELY buy entire
-              collections. <br></br><br></br>For larger collections (more than 500 LPs),
-              we may be able to offer home visits in Eastern Iowa. Please
-              contact us at<span> </span> 
+              collections. <br></br>
+              <br></br>For larger collections (more than 500 LPs), we may be
+              able to offer home visits in Eastern Iowa. Please contact us at
+              <span> </span>
               <a href="mailto: sales@recordcollector.co">
                 sales@recordcollector.com
               </a>{" "}
