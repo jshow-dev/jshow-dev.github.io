@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jshow-dev.github.io/static/css/main.3725b72c.css",
-    "main.js": "/jshow-dev.github.io/static/js/main.e4c9e7ec.js",
-    "static/js/453.87b1ad70.chunk.js": "/jshow-dev.github.io/static/js/453.87b1ad70.chunk.js",
-    "static/media/rc-logo.png": "/jshow-dev.github.io/static/media/rc-logo.7ebdbffddb22b493a934.png",
-    "index.html": "/jshow-dev.github.io/index.html",
-    "main.3725b72c.css.map": "/jshow-dev.github.io/static/css/main.3725b72c.css.map",
-    "main.e4c9e7ec.js.map": "/jshow-dev.github.io/static/js/main.e4c9e7ec.js.map",
-    "453.87b1ad70.chunk.js.map": "/jshow-dev.github.io/static/js/453.87b1ad70.chunk.js.map"
+    "main.css": "/static/css/main.3725b72c.css",
+    "main.js": "/static/js/main.1b8de085.js",
+    "static/js/453.87b1ad70.chunk.js": "/static/js/453.87b1ad70.chunk.js",
+    "static/media/rc-logo.png": "/static/media/rc-logo.7ebdbffddb22b493a934.png",
+    "index.html": "/index.html",
+    "main.3725b72c.css.map": "/static/css/main.3725b72c.css.map",
+    "main.1b8de085.js.map": "/static/js/main.1b8de085.js.map",
+    "453.87b1ad70.chunk.js.map": "/static/js/453.87b1ad70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3725b72c.css",
-    "static/js/main.e4c9e7ec.js"
+    "static/js/main.1b8de085.js"
   ]
 }
