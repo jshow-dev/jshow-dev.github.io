@@ -87,8 +87,16 @@ function App() {
                     </a>
                   </li>
                   <li className="inventory-link">
-                    <a href="https://http://bit.ly/RCstock">
-                      Search Our Inventory
+                    <a href="https://bit.ly/RCstock">Search Our Inventory</a>
+                  </li>
+                  <li className="inventory-link">
+                    <a href="https://docs.google.com/spreadsheets/d/1JobMmCqXvGa6RirA8ZAbk_5NewV0clxGnry-hE2ewd4/edit?gid=549544028#gid=549544028">
+                      New Vinyl
+                    </a>
+                  </li>
+                  <li className="inventory-link">
+                    <a href="https://docs.google.com/spreadsheets/d/1JobMmCqXvGa6RirA8ZAbk_5NewV0clxGnry-hE2ewd4/edit?gid=745721087#gid=745721087">
+                      Used Vinyl
                     </a>
                   </li>
                 </ol>
@@ -126,7 +134,8 @@ function App() {
                 <span> </span>
                 <a href="mailto: sales@recordcollector.co">
                   sales@recordcollector.com
-                </a>. Also be aware that it normally takes us longer to assess
+                </a>
+                . Also be aware that it normally takes us longer to assess
                 equipment because checking the condition and functionality takes
                 more time. <br></br>
                 <br></br>We DON’T buy 78s (shellac records), reel-to-reels,
