@@ -89,14 +89,14 @@ function App() {
                   <li className="inventory-link">
                     <a href="https://bit.ly/RCstock">Search Our Inventory</a>
                   </li>
-                  <li className="inventory-link">
+                  <li>
                     <a href="https://docs.google.com/spreadsheets/d/1JobMmCqXvGa6RirA8ZAbk_5NewV0clxGnry-hE2ewd4/edit?gid=549544028#gid=549544028">
-                      New Vinyl
+                      - New Vinyl
                     </a>
                   </li>
-                  <li className="inventory-link">
+                  <li>
                     <a href="https://docs.google.com/spreadsheets/d/1JobMmCqXvGa6RirA8ZAbk_5NewV0clxGnry-hE2ewd4/edit?gid=745721087#gid=745721087">
-                      Used Vinyl
+                      - Used Vinyl
                     </a>
                   </li>
                 </ol>
