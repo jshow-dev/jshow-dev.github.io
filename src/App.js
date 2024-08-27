@@ -22,7 +22,7 @@ function App() {
           <br></br>
           Text: 319-343-7153 <br></br>
           <a href="mailto: sales@recordcollector.co">
-            sales@recordcollector.com
+            sales@recordcollector.co
           </a>
         </div>
       </header>
@@ -133,7 +133,7 @@ function App() {
                 pictures of the items to our email
                 <span> </span>
                 <a href="mailto: sales@recordcollector.co">
-                  sales@recordcollector.com
+                  sales@recordcollector.co
                 </a>
                 . Also be aware that it normally takes us longer to assess
                 equipment because checking the condition and functionality takes
@@ -226,7 +226,7 @@ function App() {
               able to offer home visits in Eastern Iowa. Please contact us at
               <span> </span>
               <a href="mailto: sales@recordcollector.co">
-                sales@recordcollector.com
+                sales@recordcollector.co
               </a>{" "}
               or give us a call if you have a larger collection to sell
             </p>
